@@ -1,0 +1,31 @@
+{
+  "name": "proyecto-final-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GloriaBenedetti/Proyecto-Final-Node.git"
+  },
+  "keywords": [],
+  "author": "Gloria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GloriaBenedetti/Proyecto-Final-Node/issues"
+  },
+  "homepage": "https://github.com/GloriaBenedetti/Proyecto-Final-Node#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.1",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "firebase": "^12.6.0",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
