@@ -1,7 +1,7 @@
 import express from "express"
 import "dotenv/config"
 import cors from "cors"
-import productsRouter from "./routes/products.routes.js"
+import productsRouter from "./src/routes/product.routes.js"
 
 
 
